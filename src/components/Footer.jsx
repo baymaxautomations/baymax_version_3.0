@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom"
+
 export default function Footer(){
 
     return(
@@ -8,17 +10,17 @@ export default function Footer(){
                 <div className="links w-full">
                     <div className="flex max-sm:flex-col flex-wrap justify-between gap-1 text-h6 max-sm:text-h7/tight *:py-1">
                     <div>
-                        <a href="#">Home</a>
+                        <Link to="/">Home</Link>
                         <ul className="flex flex-col max-md:hidden text-h7-semi/loose">
                         <li><a href="#deliveries">Deliveries</a></li>
                         <li><a href="#experiences">Experiences</a></li>
                         <li><a href="#takeLook">How It Works</a></li>
                         </ul>
                     </div>
-                    <div><a href="#">Products</a></div>
-                    <div><a href="#">Pricing</a></div>
+                    <div><Link to="/products">Products</Link></div>
+                    <div><Link to="/pricing">Pricing</Link></div>
                         <div className="flex flex-col ">
-                            <a href="#">Contact Us</a>
+                            <Link to="/contact">Contact Us</Link>
                             <ul className="flex-1 flex flex-wrap gap-2 h-full  items-center justify-center max-md:justify-start max-md:mt-2">
                             <li><a href="https://x.com/BaymaxAuto" target="_blank"><img src="/contact/x.svg" alt="Twitter link" height="20" width="20" className="aspect-square w-[40px]" /></a></li>
                             </ul>
