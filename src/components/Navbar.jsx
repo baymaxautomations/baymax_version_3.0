@@ -48,6 +48,12 @@ export default function Navbar() {
                         <Link to="/products" onClick={() => setIsOpen(false)}><li className="inline-flex items-end gap-1"><img src="/icons/product.svg" alt="products-icon" height="24px" width="24px" />Products</li></Link>
                         <Link to="/pricing" onClick={() => setIsOpen(false)}><li className="inline-flex items-end gap-1"><img src="/icons/pricing.svg" alt="pricing-icon" height="24px" width="24px" />Pricing</li></Link>
                         <Link to="/contact" onClick={() => setIsOpen(false)}><li className="inline-flex items-end gap-1"><img src="/icons/contact.svg" alt="contacts-icon" height="24px" width="24px" />Contact</li></Link>
+                        <li>
+                            <button onClick={() => setIsOpen(false)} className="inline-flex items-end gap-1">
+                                <img src="/icons/close.svg" alt="close-icon" height="24px" width="24px" />
+                                Close
+                            </button>
+                        </li>
                     </ul>
                 </div>
             </div>
