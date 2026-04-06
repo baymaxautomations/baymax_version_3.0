@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function ContactMain(){
 
     return (
@@ -8,7 +10,7 @@ export default function ContactMain(){
                 
                 <div className="relative z-200 h-full w-full flex flex-col justify-center items-center">
                     <div className="text-h3 font-bold absolute max-sm:text-h4 text-center text-wrap text-primary-white">
-                        <a href="#">Connect with Baymax Automations &gt;</a>
+                        <Link to="/pricing">Connect with Baymax Automations &gt;</Link>
                     </div>
                 </div>
 
