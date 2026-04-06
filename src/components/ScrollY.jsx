@@ -152,7 +152,7 @@ export default function ScrollY() {
             <div className="w-full flex justify-center" id="takeLook">
                 <div className="flex w-full max-w-[1024px] max-md:px-2 sm:max-lg:px-3">
                     <p className="text-h6 whitespace-nowrap max-[400px]:text-h6 *:font-bold">
-                        <span>Lets</span> take a <span>look</span>
+                        <span>Lets</span> take a <span>look.</span>
                     </p>
                 </div>
             </div>

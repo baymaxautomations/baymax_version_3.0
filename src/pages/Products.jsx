@@ -1,16 +1,18 @@
 import Navbar from "../components/Navbar";
 import Footer from '../components/Footer'
 
-export default function Contact(){
-    return (
-
+export default function Products(){
+    return(
         <>
+            {/* here comes the navbar */}
             <Navbar></Navbar>
 
+            {/* here comes the main element */}
             <main className="min-h-[1000px]">
-                <h1 className="text-4xl font-bold text-green-500">Contact Pages</h1>
+                <p>This is the product page.</p>
             </main>
 
+            {/* here comes the footer. */}
             <Footer></Footer>
         </>
     );

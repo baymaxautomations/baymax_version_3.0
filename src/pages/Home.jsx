@@ -25,11 +25,11 @@ function Home(){
                 <ScrollY />
                 <CoreElement />
                 <ContactMain />
-                <Footer />
 
             </main>
 
             {/* footer hereby */}
+            <Footer />
         </>
     );
 
