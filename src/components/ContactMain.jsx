@@ -10,7 +10,7 @@ export default function ContactMain(){
                 
                 <div className="relative z-200 h-full w-full flex flex-col justify-center items-center">
                     <div className="text-h3 font-bold absolute max-sm:text-h4 text-center text-wrap text-primary-white">
-                        <Link to="/pricing">Connect with Baymax Automations &gt;</Link>
+                        <Link to="/contact">Connect with Baymax Automations &gt;</Link>
                     </div>
                 </div>
 
