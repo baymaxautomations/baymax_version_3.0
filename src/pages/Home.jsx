@@ -1,4 +1,3 @@
-import Navbar from '../components/Navbar'
 import Hero from '../components/Hero'
 import TagLine from '../components/TagLine'
 import Deliveries from '../components/Deliveries'
@@ -12,9 +11,6 @@ function Home(){
 
     return (
         <>
-            {/* navbar here */}
-            <Navbar />
-            
             {/* now the main section starts */}
             <main className='flex flex-col gap-3 max-sm:gap-2'>
                 
@@ -27,9 +23,6 @@ function Home(){
                 <ContactMain />
 
             </main>
-
-            {/* footer hereby */}
-            <Footer />
         </>
     );
 

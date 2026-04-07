@@ -5,27 +5,27 @@ export default function Hero() {
   // top row cards data
   const topCards = [
     {
-      image: "/images/card-1.webp",
+      image: "/home/images/card-1.webp",
       translate: "translate-y-[-30%]",
       hidden: "",
     },
     {
-      image: "/images/card-2.webp",
+      image: "/home/images/card-2.webp",
       translate: "translate-y-[-20%]",
       hidden: "",
     },
     {
-      image: "/images/card-3.webp",
+      image: "/home/images/card-3.webp",
       translate: "translate-y-[-10%]",
       hidden: "",
     },
     {
-      image: "/images/card-4.webp",
+      image: "/home/images/card-4.webp",
       translate: "translate-y-[0%]",
       hidden: "max-sm:hidden",
     },
     {
-      image: "/images/card-5.webp",
+      image: "/home/images/card-5.webp",
       translate: "translate-y-[10%]",
       hidden: "max-sm:hidden max-lg:hidden",
     },
@@ -34,23 +34,23 @@ export default function Hero() {
   // bottom row cards data
   const bottomCards = [
     {
-      image: "/images/card-6.webp",
+      image: "/home/images/card-6.webp",
       translate: "translate-y-[-20%]",
       hidden: "",
     },
     {
-      image: "/images/card-2.webp",
+      image: "/home/images/card-2.webp",
       translate: "translate-y-[-10%]",
       hidden: "",
     },
-    { image: "/images/card-3.webp", translate: "translate-y-[0%]", hidden: "" },
+    { image: "/home/images/card-3.webp", translate: "translate-y-[0%]", hidden: "" },
     {
-      image: "/images/card-4.webp",
+      image: "/home/images/card-4.webp",
       translate: "translate-y-[10%]",
       hidden: "max-sm:hidden",
     },
     {
-      image: "/images/card-5.webp",
+      image: "/home/images/card-5.webp",
       translate: "translate-y-[20%]",
       hidden: "max-sm:hidden max-lg:hidden",
     },
@@ -83,8 +83,8 @@ export default function Hero() {
 
     <section className="flex justify-center items-center h-[600px] max-sm:h-[500px] w-full relative">
       {/* text of hero section */}
-      <div className="flex flex-col absolute z-200" id="heroText">
-        <p className="text-center text-h6 font-bold max-[400px]:text-h6">
+      <div className="flex flex-col absolute z-200 transition-opacity duration-300" id="heroText">
+        <p className="text-center text-h6 font-bold max-[400px]:text-h6" id="firstLine">
           In the age of AI, it's been about
         </p>
         <p className="text-center text-h6 max-[400px]:text-h6" id="clock">

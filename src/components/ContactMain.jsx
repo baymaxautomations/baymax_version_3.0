@@ -15,7 +15,7 @@ export default function ContactMain(){
                 </div>
 
                 <div className="absolute h-full w-full bg-blue-300 top-0 left-0 z-100">
-                    <img src="/sections/hand_shake.webp" alt="contact_hand" className="bg-linear-0 from-neutral-200/15 to-neutral-500 object-cover h-full w-full " />
+                    <img src="/home/sections/hand_shake.webp" alt="contact_hand" className="bg-linear-0 from-neutral-200/15 to-neutral-500 object-cover h-full w-full " />
                 </div> 
                 
             </div>

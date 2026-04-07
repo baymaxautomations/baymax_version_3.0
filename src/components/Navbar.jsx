@@ -12,7 +12,7 @@ export default function Navbar() {
             <header className="w-full flex justify-center sticky z-500 top-0 bg-primary-white/80 backdrop-blur-sm">
                 <nav className="max-w-[1024px] flex w-full py-1 px-4 items-center">
                     <div id="logo" className="flex flex-1 gap-2 items-center">
-                        <img src="/logo.svg" alt="logo" className="object-contain h-[18px]" />
+                        <img src="/navbar/logo.svg" alt="logo" className="object-contain h-[18px]" />
                         <span className="text-h6 max-md:hidden">BAYMAX AUTOMATIONS</span>
                     </div>
 
@@ -26,11 +26,11 @@ export default function Navbar() {
                     </div> */}
 
                     <div>
-                        <ul className="flex max-md:hidden gap-10 mx-5 text-h7">
-                            <Link to="/"><li>Home</li></Link>
-                            <Link to="/products"><li>Products</li></Link>
-                            <Link to="/pricing"><li>Pricing</li></Link>
-                            <Link to="/contact"><li>Contact Us</li></Link>
+                        <ul className="flex max-md:hidden gap-10 mx-5 text-h7/tight">
+                            <li className="inline-flex items-end"><Link to="/">Home</Link></li>
+                            <li className="inline-flex items-end"><Link to="/products">Products</Link></li>
+                            <li className="inline-flex items-end"><Link to="/pricing">Pricing</Link></li>
+                            <li className="inline-flex items-end"><Link to="/contact">Contact Us</Link></li>
                         </ul>
                     </div>
 
@@ -44,13 +44,13 @@ export default function Navbar() {
             <div className={`fixed top-0 right-0 h-screen w-[60%] bg-primary-white/80 backdrop-blur-sm z-1000 transform transition-transform duration-300 ${isOpen ? "translate-x-0" : "translate-x-full"}`}>
                 <div className="flex flex-col h-full p-6">
                     <ul className="flex flex-col gap-6 mt-10 text-h6/tight">
-                        <Link to="/" onClick={() => setIsOpen(false)}><li className="inline-flex items-end gap-1"><img src="/icons/home.svg" alt="home-icon" height="24px" width="24px"/>Home</li></Link>
-                        <Link to="/products" onClick={() => setIsOpen(false)}><li className="inline-flex items-end gap-1"><img src="/icons/product.svg" alt="products-icon" height="24px" width="24px" />Products</li></Link>
-                        <Link to="/pricing" onClick={() => setIsOpen(false)}><li className="inline-flex items-end gap-1"><img src="/icons/pricing.svg" alt="pricing-icon" height="24px" width="24px" />Pricing</li></Link>
-                        <Link to="/contact" onClick={() => setIsOpen(false)}><li className="inline-flex items-end gap-1"><img src="/icons/contact.svg" alt="contacts-icon" height="24px" width="24px" />Contact</li></Link>
+                        <li className="*:inline-flex *:items-end *:gap-1"><Link to="/" onClick={() => setIsOpen(false)}><img src="/navbar/icons/home.svg" alt="home-icon" height="24px" width="24px"/>Home</Link></li>
+                        <li className="*:inline-flex *:items-end *:gap-1"><Link to="/products" onClick={() => setIsOpen(false)}><img src="/navbar/icons/product.svg" alt="products-icon" height="24px" width="24px" />Products</Link></li>
+                        <li className="*:inline-flex *:items-end *:gap-1"><Link to="/pricing" onClick={() => setIsOpen(false)}><img src="/navbar/icons/pricing.svg" alt="pricing-icon" height="24px" width="24px" />Pricing</Link></li>
+                        <li className="*:inline-flex *:items-end *:gap-1"><Link to="/contact" onClick={() => setIsOpen(false)}><img src="/navbar/icons/contact.svg" alt="contacts-icon" height="24px" width="24px" />Contact</Link></li>
                         <li>
                             <button onClick={() => setIsOpen(false)} className="inline-flex items-end gap-1">
-                                <img src="/icons/close.svg" alt="close-icon" height="24px" width="24px" />
+                                <img src="/navbar/icons/close.svg" alt="close-icon" height="24px" width="24px" />
                                 Close
                             </button>
                         </li>

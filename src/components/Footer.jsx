@@ -3,7 +3,7 @@ import {Link} from "react-router-dom"
 export default function Footer(){
 
     return(
-            <footer className="bg-primary-black flex flex-col justify-center items-center pt-5 pb-3 max-sm:px-4 max-[1025px]:px-2 relative z-1000">
+            <footer className="bg-primary-black flex flex-col justify-center items-center pt-5 pb-3 max-sm:px-4 max-[1025px]:px-2 relative z-500">
 
                 <section className="flex flex-col w-full max-w-[1024px] text-white py-4">
                 
@@ -22,7 +22,7 @@ export default function Footer(){
                         <div className="flex flex-col ">
                             <Link to="/contact">Contact Us</Link>
                             <ul className="flex-1 flex flex-wrap gap-2 h-full  items-center justify-center max-md:justify-start max-md:mt-2">
-                            <li><a href="https://x.com/BaymaxAuto" target="_blank"><img src="/contact/x.svg" alt="Twitter link" height="20" width="20" className="aspect-square w-[40px]" /></a></li>
+                            <li><a href="https://x.com/BaymaxAuto" target="_blank"><img src="/home/contact/x.svg" alt="Twitter link" height="20" width="20" className="aspect-square w-[40px]" /></a></li>
                             </ul>
                         </div>
                     </div>

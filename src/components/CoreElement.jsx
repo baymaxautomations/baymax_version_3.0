@@ -19,8 +19,8 @@ export default function CoreElement(){
 
                 {/* presentation video here */}
                 <div className="absolute max-sm:relative z-50 right-0 aspect-square h-[80%] max-sm:h-auto max-sm:w-[60%] max-sm:mt-10 max-sm:mb-6 order-first sm:max-lg:px-5">
-                    <video autoplay muted loop playsinline poster="/sections/think_1.png">
-                        <source src="/sections/think_square_2.mp4" type="video/mp4" />
+                    <video autoPlay muted loop playsInline poster="/home/sections/think_1.png">
+                        <source src="/home/sections/think_square_2.mp4" type="video/mp4" />
                         {/* <!-- <source src="video.webm" type="video/webm"> --> */}
                     </video>
                 </div>

@@ -3,7 +3,7 @@ import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import ScrollCards from "./ScrollCards";
 
-const AUTO_DELAY = 2000
+const AUTO_DELAY = 3800
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -19,23 +19,23 @@ export default function ScrollY() {
     const cards = [
         {
             text: <>Say you are a <span className="text-h3 max-sm:text-h5/tight">Doctor</span> and you want to respond to your patients <span className="font-bold">intelligently 24*7.</span></>,
-            image: '/animes/img-1.webp',
+            image: '/home/animes/img-1.webp',
             alt: 'doctor'
         },
         {
             text: <>You <span className="text-h3 max-sm:text-h5/tight">reach</span> us.<br /> We <span className="text-h3 max-sm:text-h5/tight">design</span> systems based on your given constrains.</>,
-            image: '/animes/img-2.webp',
+            image: '/home/animes/img-2.webp',
             alt: 'application'
         },
         {
             text: <>We add an <span className="text-h3 max-sm:text-h5/tight"> intelligent layer </span>to the <span className="text-h3 max-sm:text-h5/tight">product.</span></>,
-            image: '/animes/img-3.webp',
+            image: '/home/animes/img-3.webp',
             alt: 'intelligence-layer',
             className: 'object-cover h-full w-full'
         },
         {
             text: <>Get your product. <br /><span className="text-h3 max-sm:text-h5/tight">Future upgrades</span> also <span className="text-h3 max-sm:text-h5/tight">packed.</span></>,
-            image: '/animes/img-4.webp',
+            image: '/home/animes/img-4.webp',
             alt: 'finalized_product',
             className: 'object-cover h-full w-full'
         }
@@ -203,7 +203,9 @@ export default function ScrollY() {
                         />
                     ))}
                 </div>
-
+                
+                {/* outer layer for no-interaction */}
+                <div className="h-full w-full absolute"></div>
             </section>
         </>
     );

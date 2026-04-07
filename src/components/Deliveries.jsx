@@ -27,12 +27,12 @@ export default function Deliveries(){
 
 
                         <DeliveryCards title={
-                            [{text:'Artificial', classes:'font-bold'}, {text:'Personal'}, {text:'Assistant.'}]} body={{upper:'I', lower:'can handle all of your daily tasks and office work and let you get notified via daily reports, schedule...'}} buttonContent="Learn More " cardImage={{alt:'Artifical Personal Assistant', source:'/cards/product-1.webp'}} />
+                            [{text:'Artificial', classes:'font-bold'}, {text:'Personal'}, {text:'Assistant.'}]} body={{upper:'I', lower:'can handle all of your daily tasks and office work and let you get notified via daily reports, schedule...'}} buttonContent="Learn More " cardImage={{alt:'Artifical Personal Assistant', source:'/home/cards/product-1.webp'}} />
                         
                         <DeliveryCards title={
-                            [{text:'Artificial', classes:'font-bold'}, {text:'Customer'}, {text:'Service Expert.'}]} body={{upper:'I', lower:'can handle all the customer query, managing their appointments, and...'}} buttonContent="Learn More " cardImage={{alt:'Artifical Customer Service Expert', source:'/cards/product-2.webp'}} />
+                            [{text:'Artificial', classes:'font-bold'}, {text:'Customer'}, {text:'Service Expert.'}]} body={{upper:'I', lower:'can handle all the customer query, managing their appointments, and...'}} buttonContent="Learn More " cardImage={{alt:'Artifical Customer Service Expert', source:'/home/cards/product-2.webp'}} />
                         
-                        <DeliveryCards buttonContent="Explore More " cardImage={{alt:'Baymax Store', source:'/cards/product-3.webp'}} />
+                        <DeliveryCards buttonContent="Explore More " cardImage={{alt:'Baymax Store', source:'/home/cards/product-3.webp'}} />
 
                     </div>
 

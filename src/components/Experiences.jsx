@@ -3,10 +3,10 @@ import CardsVertical from "./CardsVertical";
 export default function ExperiencesSnapshot(){
 
     const cards = [
-        {path:'/experiences/1.webp', imgAlt:'late night messaging', text:<><span>Surprising customers</span> at late night <span>responses.</span></>, color:`text-primary-white`},
-        {path:'/experiences/2.webp', imgAlt:'less talking more listening', text:<>Delivering the <span>intelligent</span> content that <span>listens to you.</span></>, color:`text-primary-black`},
-        {path:'/experiences/3.webp', imgAlt:'humanoid bot', text:<>Delivering the <span>intelligent</span> content that <span>listens to you.</span></>, color:`text-primary-white text-shadow-xs text-shadow-secondary-grey`},
-        {path:'/experiences/4.webp', imgAlt:'people discussing', text:<>Add new automations <span>metrics</span> to the <span>business.</span></>, color:`text-primary-white text-shadow-xs text-shadow-secondary-grey`}
+        {path:'/home/experiences/1.webp', imgAlt:'late night messaging', text:<><span>Surprising customers</span> at late night <span>responses.</span></>, color:`text-primary-white`},
+        {path:'/home/experiences/2.webp', imgAlt:'less talking more listening', text:<>Delivering the <span>intelligent</span> content that <span>listens to you.</span></>, color:`text-primary-black`},
+        {path:'/home/experiences/3.webp', imgAlt:'humanoid bot', text:<>Delivering the <span>intelligent</span> content that <span>listens to you.</span></>, color:`text-primary-white text-shadow-xs text-shadow-secondary-grey`},
+        {path:'/home/experiences/4.webp', imgAlt:'people discussing', text:<>Add new automations <span>metrics</span> to the <span>business.</span></>, color:`text-primary-white text-shadow-xs text-shadow-secondary-grey`}
     ]
 
     return (
